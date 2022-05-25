@@ -1,0 +1,25 @@
+body {
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.plain-border {
+  border: 1px solid teal;
+  border-radius: 5px;
+}
+.inline-elements {
+  display: inline-block;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.search-bar-items {
+  margin: 0;
+  line-height: 1.5;
+}
+#enter-city-button {
+  width: 300px;
+}
