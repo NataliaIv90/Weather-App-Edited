@@ -1,0 +1,95 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+p,
+img,
+small,
+strong,
+ul,
+li,
+header,
+section,
+input {
+  background: 0 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+}
+input,
+label,
+button,
+form {
+  background: 0 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+body {
+  font: 14px pt sans, Arial, Helvetica, sans-serif;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  background: #131415;
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+}
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+h1 {
+  font-size: 24px;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  padding: 0 20px;
+  font: 14px Arial !important;
+  color: #fff;
+  display: inline-block;
+  background-color: #ca563f;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
